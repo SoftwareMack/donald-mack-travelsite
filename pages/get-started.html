@@ -1,0 +1,80 @@
+<!-- get-started.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/getstarted.css">
+  <title>Get Started - Travel Site</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="../index.html">Travel Site</a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../pages/iceland.html">Iceland</a></li>
+        <li><a href="../pages/greece.html">Greece</a></li>
+        <li><a href="../pages/hawaii.html">Hawaii</a></li>
+
+      </ul>
+    </nav>
+  </header>
+  <section class="get-started-content">
+    <h1>Let's get Started. </h1>
+    <p>Fill out the form below to begin your booking process:</p>
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="destination">Destination:</label>
+        <select id="destination" name="destination" required>
+          <option value="iceland">Iceland</option>
+          <option value="greece">Greece</option>
+          <option value="hawaii">Hawaii</option>
+        </select>
+
+        <label for="travel-date">Travel Date:</label>
+        <input type="date" id="travel-date" name="travel-date" required>
+
+        <button type="submit">Submit</button>
+      </form>
+  </section>
+  <footer class="footer">
+    <section class="footer-section contact-info">
+        <h3 class="section-title">Contact</h3>
+        <p>Email</p>
+        <span class="email-address unique-email">info@travelsite.com</span>
+    </section>
+    <section class="footer-section hours">
+        <h3 class="section-title">Hours</h3>
+        <p class="hours-info">
+            <span>Monday-Friday</span>
+            <span>Saturday</span>
+            <span>Sunday</span>
+          </p>
+
+        <p class="hours-info unique-hours-different">9AM-5PM 10AM-4PM Closed</p>
+    </section>
+    <section class="footer-section footer-icons">
+        <h3 class="section-title">Social</h3>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="../Assets/Icons/icon-facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="../Assets/Icons/icon-instagram.png" alt="Instagram">
+            </a>
+            <a href="https://www.x.com" target="_blank">
+                <img src="../Assets/Icons/icon-twitter.png" alt="Twitter">
+            </a>
+        </div>
+    </section>
+</footer>
+
+</body>
+
+</html>
