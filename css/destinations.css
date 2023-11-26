@@ -1,197 +1,76 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Verdana;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #FFFFFF;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  margin-top:2 ;
-  padding: 1px;
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  margin-right: 40px;
-  font-size:13px ;
-}
-
-.nav-list {
-  color: #000000;
-  font-size: 13px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #335576;
-  padding: 10px;
-}
-
-nav a.active {
-  text-decoration: underline;
-  color: #DB7A4E;
-}
-
-nav a:hover {
-  text-decoration: underline;
-  color: #DB7A4E;
-}
-
-.logo {
-  color: #335576;
-  margin-left: 40px;
-  font-weight: bold;
-}
-
 .destination-header {
-  text-align: left;
-  padding: 20px;
-}
+    text-align: left;
+    padding: 20px;
+  }
 
-.destination-header h1 {
-  color: #FFFFFF;
-  font-weight: bold;
-}
+  .destination-header h1 {
+    color: #FFFFFF;
+    font-weight: bold;
+  }
 
-.itinerary {
-  text-align: center;
-  padding: 20px;
-}
+  .itinerary {
+    text-align: center;
+    padding: 20px;
+  }
 
-.itinerary h2 {
-  color: #335576;
-  margin-bottom: 10px;
-}
+  .itinerary h2 {
+    color: #335576;
+    margin-bottom: 10px;
+  }
 
-.itinerary p {
-  background-color: #FEFAF5;
-}
+  .itinerary p {
+    background-color: #FEFAF5;
+  }
+
+  .day-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .day-card {
+    background-color: white;
+    width: 250px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    color: #000000;
+  }
+
+  .day-card h3 {
+    color: #000000;
+    text-decoration: underline;
+  }
+
+  .day-card p {
+    margin: 40px 0;
+  }
+
+  body.iceland {
+    background-image: url(../Assets/Images/iceland.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  body.hawaii {
+    background-image: url(../Assets/Images/hawaii.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  body.greece {
+    background-image: url(../Assets/Images/greece.jpg);
+    background-size: cover;
+    background-position: center;
+  }
 
 
 
-.day-cards {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.day-card {
-  background-color: white;
-  width: 250px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-  margin: 10px;
-  box-sizing: border-box;
-  padding: 10px;
-  color: #000000;
-}
-
-.day-card h3 {
-  color: #000000;
-  text-decoration: underline;
-}
-
-.day-card p {
-  margin: 40px 0;
-}
-
-body.iceland {
-  background-image: url(../Assets/Images/iceland.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-body.hawaii {
-  background-image: url(../Assets/Images/hawaii.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-body.greece {
-  background-image: url(../Assets/Images/greece.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-footer {
-  display: flex;
-  justify-content: space-between;
-  background-color: #FEFAF5;
-  padding: 20px;
-  position: relative;
-  bottom: 0px;
-  right: 0px;
-  left: 0px;
-  top: 50px;
-}
-
-.footer-section {
-  flex: 1;
-  padding-left: 59px;
-}
-
-.footer-section h3 {
-  color: #335576;
-}
-
-.footer-section p {
-  color: #335576;
-}
-
-.footer-icons img {
-  margin-right: 10px;
-}
-
-.footer-section.contact-info p,
-.footer-section.hours p {
-  color: #DB7A4E;
-  font-size: 10px;
-}
-
-.footer-section.contact-info .email-address {
-  color: #335576;
-  font-size: 14px;
-}
-.footer-section.hours .business-hours {
-  color: #335576;
-  font-size: 14px;
-}
-
-.footer-section.contact-info .email-address.unique-email {
-  color: #335576;
-  font-size: 13px;
-}
-
-.footer-section.hours .unique-hours-different {
-  color: #335576;
-  font-size: 12px;
-}
-
-.footer-icons img {
-  width: 20px;
-  height: 20px;
-  margin-left: 10px;
-}
-
-.hours-info {
-  word-spacing: 90px;
-}
-
-.hours-info span {
-  margin-right: px;
-}
+  .footer-icons img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+  }
