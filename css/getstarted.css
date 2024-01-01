@@ -1,0 +1,22 @@
+
+
+
+  .get-started-content {
+    text-align: center;
+    padding: 100px 2vw;
+  }
+
+  .get-started-content h1 {
+    color: #335576;
+  }
+
+  footer {
+    top: 120px;
+  }
+
+  .footer-icons img {
+    width: 2vw;
+    height: 2vw;
+
+    margin-left: 10px;
+  }

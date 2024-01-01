@@ -1,0 +1,101 @@
+body {
+    font-family: Verdana;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 3vw;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 3vw;
+    display: flex;
+    font: 1vw;
+  }
+  header .logo a {
+    font-weight: bold;
+    color: #335576;
+    font-size: 1vw;
+    padding: 3vw;
+  }
+  .nav-list {
+    color: #000;
+    font-size: 13rem;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #335576;
+    padding: 10px;
+  }
+
+  nav a.active,
+  nav a:hover {
+    text-decoration: underline;
+    color: #DB7A4E;
+  }
+
+  .logo {
+    color: #335576;
+    margin-left: 10px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FEFAF5;
+    padding: 2vw;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-top: 35vw;
+  }
+
+  .footer-section {
+    flex: 1;
+    padding-left: 9px;
+  }
+
+  .footer-section h3,
+  .footer-section p {
+    color: #335576;
+    margin: 20;
+  }
+
+  .footer-icons img {
+    margin-right: 1vw;
+  }
+
+  .footer-section.contact-info p,
+  .footer-section.hours p {
+    color: #DB7A4E;
+    font-size: 1vw;
+  }
+
+  .footer-section.contact-info .email-address,
+  .footer-section.hours .business-hours,
+  .footer-section.contact-info .email-address.unique-email,
+  .footer-section.hours .unique-hours-different {
+    color: #335576;
+    font-size: 1vw;
+  }
+
+  .hours-info {
+    word-spacing: 2vw;
+  }
+
+  .hours-info span {
+    margin-right: px;
+  }
